@@ -1,0 +1,40 @@
+{
+  "App":{
+    "FromKafkaToHdfsJob":{
+      "app_name":"FromKafkaToHdfsJob",
+      "in_topic":"http_test",
+      "in_topic_partitions":5,
+      "kafka_producer":["ip1:6667","ip2:6667"],
+      "namenode":"ip",
+      "zookeeper": "ip:2181",
+      "savedir":"/http_test/http_test.json"
+    },
+    "HmmTrainJob": {
+            "app_name": "HmmTrainJob",
+            "namenode": "ip",
+            "data_dir": "/http_test/http_test.json",
+            "model_dir": "/http_test/model_test/",
+            "min_train_num": 10
+    },
+    "HmmDetectionJob": {
+            "app_name": "HmmDetectionJob",
+            "namenode": "ip",
+            "model_dir": "/http_test/model_test.jsonmodel2017-05-04_13-01.json",
+            "in_topic": "http_test",
+            "in_topic_partitions": 5,
+            "zookeeper": "ip:2181",
+            "index_name": "web_detection_alarm",
+            "type_name": "hmm_detection_alarm",
+            "elasticsearch": {
+                "connect": {
+                    "hosts": ["ip", "ip"],
+                    "maxsize": 25
+                },
+                "index": {
+                    "number_of_shards": 6,
+                    "number_of_replicas": 1
+                }
+            }
+    }
+  }
+}
