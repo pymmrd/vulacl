@@ -10,3 +10,7 @@ https://www.freebuf.com/articles/network/139532.html  诗云碎片：机器学�
 https://www.freebuf.com/articles/web/205760.html  Web攻击检测机器学习深度实践
 https://www.freebuf.com/articles/network/158163.html  AI安全初探：利用深度学习检测DNS隐蔽通道
 https://www.freebuf.com/vuls/225096.html  漏洞组合拳之XSS+CSRF记录
+https://mp.weixin.qq.com/s/T6EYwGpEQr64OGXGj2R5eA   企业级自动化代码安全扫描实战
+https://www.freebuf.com/sectool/207757.html   Trivy：针对容器的漏洞扫描器
+https://www.freebuf.com/sectool/178998.html    基于Docker的蜜罐平台搭建：T-Pot 17.10
+https://www.freebuf.com/vuls/196993.html    kubernetes集群渗透测试
