@@ -1,0 +1,12 @@
+https://www.freebuf.com/articles/web/134334.html   基于大数据和机器学习的Web异常参数检测系统Demo实现
+https://www.freebuf.com/articles/web/216185.html   IAST原理分析以及在SDL中的应用
+https://www.freebuf.com/news/142069.html           如何使用深度学习检测XSS
+https://www.freebuf.com/articles/network/131279.html  用机器学习玩转恶意URL检测
+https://www.jianshu.com/p/942d1beb7fdd     数据科学在Web威胁感知中的应用（一）
+https://www.freebuf.com/articles/system/182566.html  基于深度学习的恶意样本行为检测
+https://www.freebuf.com/articles/database/224617.html  我眼中的数据安全治理
+https://www.freebuf.com/column/170483.html  利用机器学习检测HTTP恶意外连流量
+https://www.freebuf.com/articles/network/139532.html  诗云碎片：机器学习在入侵检测中的应用初探
+https://www.freebuf.com/articles/web/205760.html  Web攻击检测机器学习深度实践
+https://www.freebuf.com/articles/network/158163.html  AI安全初探：利用深度学习检测DNS隐蔽通道
+https://www.freebuf.com/vuls/225096.html  漏洞组合拳之XSS+CSRF记录
